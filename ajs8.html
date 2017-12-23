@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <input type="text" ng-model="firstName">
+        <input type="text" ng-model="lastName">
+        
+        <br>Full Name<h2> {{fullName()}} </h2>
+    </div>
+
+    <script src="myCtrl.js"></script>
+</body>
+</html>
